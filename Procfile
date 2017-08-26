@@ -1,1 +1,1 @@
-web: python manage.py runserver
+web: gunicorn py_mrp.wsgi --log-file -

@@ -49,7 +49,8 @@ Database Model `AudioFile` is defined in models.py in prakticspeechApp directory
 Database server.
 --- I stored nupmy array in mysql in string format which when retrieved. numpy is not able to read it. I could not troubleshoot it for now.
 --- autocorrelation thing left pending
---- deployment at herokuapp
+--- deployment at herokuapp : I used Mysql but herokuapp natively supprt postgres. However to use mysql it need mysql setup additionally.
+I tried but mysql connection creating problem. I was stucked on it.
 --- Application can be made better with more digital signal processing mechanisms and
 signal features/patterns matching algorithms. (Need to fetch MFCC, LPC, Enrgy features)
 

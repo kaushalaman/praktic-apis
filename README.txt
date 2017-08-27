@@ -1,4 +1,4 @@
-Voice Authentication System:
+Voice Authentication System: (USE ONLY WAV FILE FOR AUDIO FILE)
 
 
 ###URLS:
@@ -28,6 +28,8 @@ FormData: {
 ###TEMPLATES: FORMS and INDEX Html FILES
 
 ###PYTHON LIBRARIES: NUMPY, SCIPY, BSON
+
+###MEDIA DIR: To STORE WAV FILE
 
 ###Algorithm:
 
@@ -61,8 +63,9 @@ How to Run:
 5. Run: `python manage.py makemigrations prakticspeechApp`
 6. Run: `python manage.py migrate` (Again)
 7. Run: `python manage.py runserver`
-8. Use Get APIS (Forms) to Hit POST request or use POSTMAN
-9. IF you use POSTMAN then Please provide 'CSRF token' from cookie for that you can
+8. Please USE Only WAV FILE AS INPUT
+9. Use Get APIS (Forms) to Hit POST request or use POSTMAN
+10. IF you use POSTMAN then Please provide 'CSRF token' from cookie for that you can
 install 'interceptor' plugin which once enabled, can provide you csrf token from cookie data
 Note: The CSRF middleware and template tag provides easy-to-use protection against Cross Site Request Forgeries. for
 Security purpose I used it.

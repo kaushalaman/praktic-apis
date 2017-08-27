@@ -3,7 +3,6 @@ import os
 
 def readAudioFile(path):
     extension = os.path.splitext(path)[1]
-    print("extension", extension)
     try:
         if extension.lower() == '.wav':
             [Fs, x] = wavfile.read(path)
